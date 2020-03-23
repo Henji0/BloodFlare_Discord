@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const Enmap = require("enmap");
 const fs = require("fs");
 const client = new Discord.Client();
-client.login('NjY2NTIxODg5MjgzMjQ0MDQz.Xh1jvw.dOoVwoXI5MPOGCwJA9VT8vff4aQ');
+client.login("It's a secret");
 
 fs.readdir("./events/", (err, files) => {
   if (err) return console.error(err);
